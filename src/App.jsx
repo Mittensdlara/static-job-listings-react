@@ -1,12 +1,14 @@
+
 import "./App.css";
 import Navbar from "./Navbar";
 import JobLists from "./JobLists";
 
 function App() {
+
   return (
-    <div className="App ">
+    <div className="App">
       <Navbar />
-      <JobLists />
+      <JobLists/>
     </div>
   );
 }
